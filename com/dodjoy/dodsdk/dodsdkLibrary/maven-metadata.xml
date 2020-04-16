@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.dodjoy.dodsdk</groupId>
+  <artifactId>dodsdkLibrary</artifactId>
+  <versioning>
+    <release>3.7.0</release>
+    <versions>
+      <version>3.7.0</version>
+    </versions>
+    <lastUpdated>20200415064619</lastUpdated>
+  </versioning>
+</metadata>

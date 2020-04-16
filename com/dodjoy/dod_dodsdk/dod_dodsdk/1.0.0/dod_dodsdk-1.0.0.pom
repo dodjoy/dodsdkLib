@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.dodjoy.dod_dodsdk</groupId>
+  <artifactId>dod_dodsdk</artifactId>
+  <version>1.0.0</version>
+  <packaging>aar</packaging>
+  <dependencies>
+    <dependency>
+      <groupId>com.android.support</groupId>
+      <artifactId>appcompat-v7</artifactId>
+      <version>28.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>RangersAppLog-Lite-cn-3.3.12</artifactId>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <artifactId>dodsdk</artifactId>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>SDK_Base</groupId>
+      <artifactId>androidbase</artifactId>
+      <version>unspecified</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
